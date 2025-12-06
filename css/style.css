@@ -197,6 +197,23 @@
     background-size: contain;
 }
 
+/* Mobile improvements for About section */
+@media (max-width: 768px) {
+    .about-section .row {
+        margin-bottom: 2rem;
+    }
+    
+    .about-section img {
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        margin-bottom: 1rem;
+    }
+    
+    .about-section .col-md-6 {
+        margin-bottom: 1.5rem;
+    }
+}
+
 
 /*** Project ***/
 .project-item img {
